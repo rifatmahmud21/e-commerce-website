@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda</title>
+    <link rel="shortcut icon" href="fav/fav.png" type="image/x-icon">
+
+    <!-- Font-Awesome -->
+    <script src="https://kit.fontawesome.com/1b102338f7.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap-Style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #feeae9;">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""
+                        class="d-inline-block align-text-top"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="d-flex w-50 ms-auto">
+                        <input class="form-control me-2 rounded-pill" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-secondary rounded-pill" type="submit"><i
+                                class="fas fa-search"></i></button>
+                    </form>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Categories">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact-Us">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About-Us">About Us<i class="fas fa-user-check ms-3"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="container mt-3 rounded p-5" style="background-color: #feeae9;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Headphone -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>Star Galaxy Headpone</h1>
+                            <p>The newly developed diaphragm with Magnesium dome and Liquid Crystal Polymer edge enables
+                                up to 120kHz playback in High
+                                Resolution Audio. The result is unparalleled sound purity and precision.</p>
+                            <h3 class="text-danger">$150</h3>
+                            <button class="btn btn-danger rounded-pill"> Buy Now <i
+                                    class="fas fa-arrow-right ms-3"></i></button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tv -->
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>Mi LED TV 4A PRO 32</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat duis enim velit
+                                mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <h3 class="text-danger">$15000</h3>
+                            <button class="btn btn-danger rounded-pill"> Buy Now <i
+                                    class="fas fa-arrow-right ms-3"></i></button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- X-box -->
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-lg-7">
+                            <h1>XBOX SERIES S</h1>
+                            <p>he next generation of gaming brings our largest digital library yet to our smallest Xbox
+                                ever. With more dynamic worlds,
+                                faster load times, and the addition of Xbox Game Pass (sold separately), the all-digital
+                                Xbox Series S is the best value
+                                in gaming.</p>
+                            <h3 class="text-danger">$950</h3>
+                            <button class="btn btn-danger rounded-pill"> Buy Now <i
+                                    class="fas fa-arrow-right ms-3"></i></button>
+                        </div>
+                        <div class="col-lg-5">
+                            <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- section 2 -->
+    <section class="container mt-5" id="Categories">
+        <h1 class="text-center text-dark mb-5">Categories</h1>
+        <div class="row gx-5">
+            <div class="col-lg-4 col-md-6 mb-3">
+                <div class="p-3 shadow-sm d-flex align-items-center justify-content-between rounded-pill"
+                    style="background-color: antiquewhite;">
+                    <h2>Shoes</h2>
+                    <img src="images/categories/shoes.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-3">
+                <div class="p-3 shadow-sm d-flex align-items-center justify-content-between rounded-pill"
+                    style="background-color: azure;">
+                    <h2>Bags</h2>
+                    <img src="images/categories/bag.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3">
+                <div class="p-3 shadow-sm d-flex align-items-center justify-content-between rounded-pill"
+                    style="background-color: beige;">
+                    <h2>Watches</h2>
+                    <img src="images/categories/watch.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shoes -->
+    <section class="container mt-5">
+        <h1 class="text-center text-dark mb-5">Shoes</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 shadow border-0">
+                    <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Reebok Dart Men’s</h2>
+                        <p class="card-text">Adventure seeking inspires you to veer off-road. These All Terrain Craze
+                            running shoes are made to take on the path less
+                            paved. Tough-built top to bottom, they will splash through puddles and tread up rocky paths
+                            with
+                            wild abandon.</p>
+                        <h2 class="text-danger">$1200</h2>
+                        <button class="btn btn-dark rounded-pill"> Buy Now <i
+                                class="fas fa-arrow-right ms-3"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow border-0">
+                    <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Reebok Pump</h2>
+                        <p class="card-text">Adventure seeking inspires you to veer off-road. These All Terrain Craze
+                            running shoes are made to take on the path less
+                            paved. Tough-built top to bottom, they will splash through puddles and tread up rocky paths
+                            with
+                            wild abandon.</p>
+                        <h2 class="text-danger">$999</h2>
+                        <button class="btn btn-dark rounded-pill"> Buy Now <i
+                                class="fas fa-arrow-right ms-3"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow border-0">
+                    <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Reebok All Terrain</h2>
+                        <p class="card-text">Adventure seeking inspires you to veer off-road. These All Terrain Craze
+                            running shoes are made to take on the path less
+                            paved. Tough-built top to bottom, they will splash through puddles and tread up rocky paths
+                            with
+                            wild abandon.</p>
+                        <h2 class="text-danger">$1750</h2>
+                        <button class="btn btn-dark rounded-pill"> Buy Now <i
+                                class="fas fa-arrow-right ms-3"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-danger mt-2 text-end ">see more <i class="fas fa-arrow-right"></i></p>
+    </section>
+
+
+    <!-- Backpack -->
+    <section class="container mt-5">
+        <h1 class="text-center text-dark mb-5">Backpack</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 shadow border-0">
+                    <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Ison Backpack</h2>
+                        <p class="card-text">Adventure seeking inspires you to veer off-road. These All Terrain Craze
+                            running Backpack are made to take on the path less
+                            paved. Tough-built top to bottom.</p>
+                        <h2 class="text-danger">$299</h2>
+                        <button class="btn btn-dark rounded-pill"> Buy Now <i
+                                class="fas fa-arrow-right ms-3"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow border-0">
+                    <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Biaowang Backpack</h2>
+                        <p class="card-text">Adventure seeking inspires you to veer off-road. These All Terrain Craze
+                            running Backpack are made to take on the path less
+                            paved. Tough-built top to bottom.</p>
+                        <h2 class="text-danger">$999</h2>
+                        <button class="btn btn-dark rounded-pill"> Buy Now <i
+                                class="fas fa-arrow-right ms-3"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 shadow border-0">
+                    <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h2 class="card-title">Dxyizu WS54 Smart</h2>
+                        <p class="card-text">Adventure seeking inspires you to veer off-road. These All Terrain Craze
+                            running Backpack are made to take on the path less
+                            paved. Tough-built top to bottom.</p>
+                        <h2 class="text-danger">$799</h2>
+                        <button class="btn btn-dark rounded-pill"> Buy Now <i
+                                class="fas fa-arrow-right ms-3"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="text-danger mt-2 text-end">see more <i class="fas fa-arrow-right"></i></p>
+    </section>
+
+
+    <!-- Contact Us -->
+    <section class="container bg-light p-5 m-5 mx-auto" id="Contact-Us">
+        <div class="text-center">
+            <h1>LET'S STAY IN TOUCH</h1>
+            <p>Get updates on sales specials and more</p>
+            <input type="text" placeholder="Write your message" class="w-50"> <br>
+            <input type="email" placeholder="Your email" class="mt-2"> <br>
+            <button class="btn btn-secondary mt-2 rounded-pill">Send <i class="fas fa-paper-plane ms-2"></i></button>
+        </div>
+    </section>
+
+
+    <!-- about us -->
+    <section class="container-fluid p-3" style="background-color:#feeae9;" id="About-Us">
+        <h1 class="text-center mb-5">About Us</h1>
+        <div class="row">
+            <div class="col">
+                <h4>we are always</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptates sunt corporis facere debitis
+                    ut laboriosam voluptatum, repellendus eaque tempore, nulla id quos! Aspernatur necessitatibus
+                    adipisci repellendus deserunt, quisquam quod.</p>
+            </div>
+            <div class="col">
+                <h4>we are always</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem in at harum nihil architecto
+                    voluptatibus nulla inventore recusandae, consequatur magnam cum excepturi expedita placeat tempore
+                    soluta, ex necessitatibus id minima.</p>
+            </div>
+            <div class="col">
+                <h4>we are always</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos iure exercitationem dicta, nostrum fugit
+                    vero officia veritatis officiis atque perferendis cumque labore quam, repudiandae doloremque alias
+                    iste quisquam maxime nihil.</p>
+            </div>
+            <div class="col">
+                <h4>we are always</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur hic dolore iste ipsa? Magni sed
+                    accusantium dolores, perspiciatis beatae ipsum consequuntur incidunt eligendi omnis delectus,
+                    necessitatibus, aliquid laboriosam fuga laborum?</p>
+            </div>
+            <div class="col">
+                <h4>we are always</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui atque voluptatum nisi vitae eius quae
+                    vel sit perferendis ipsa. Ab, reiciendis assumenda? Nulla, repellendus. Impedit non iste dignissimos
+                    consectetur suscipit.</p>
+            </div>
+            <div class="col">
+                <h4>we are always</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error minima expedita provident
+                    incidunt reprehenderit maiores, dicta nam tenetur sed eum rem non explicabo qui iste ducimus ipsum
+                    ratione numquam?</p>
+            </div>
+        </div>
+        <br>
+        <div class="text-center">
+            <h2>Our Office-Email-Address-Locations</h2>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ullam architecto
+                ipsa placeat ducimus
+                enim itaque est, sapiente recusandae molestiae sit officia, perferendis iure libero repellendus neque
+                amet
+                odit commodi beatae minima. Quae odio voluptatum incidunt blanditiis ab ut ea temporibus nisi iusto
+                voluptatibus corrupti, delectus laudantium quaerat enim tempora, molestiae eum in at quo cumque, culpa
+                quisquam quis labore. Dolorem earum cumque voluptas ab? Repudiandae illo quisquam saepe corrupti
+                accusamus
+                sit totam porro dolorum nisi sint vel molestias doloremque facilis accusantium ipsum necessitatibus
+                dolore
+                excepturi a velit, ducimus fuga maxime aliquid deleniti laudantium. Tempora laudantium consequuntur
+                nihil?
+                Quae doloribus voluptatem incidunt eaque odio consequatur odit quaerat, iusto tempore consectetur
+                corporis
+                saepe quia? Inventore eligendi non iure in numquam sunt, deserunt voluptates, delectus iusto, fuga
+                quaerat
+                laborum consequuntur maxime culpa. Iure sint at, molestiae ducimus tenetur nulla molestias ipsum
+                consectetur
+                nostrum. Ea fugiat tempora ad numquam magnam nisi repellat quidem quisquam temporibus pariatur possimus,
+                tenetur suscipit praesentium, mollitia nam saepe eligendi, odit sequi enim nobis? Ducimus dignissimos
+                laborum dolorem culpa, nihil facere distinctio earum, tenetur non rem ex corporis recusandae officiis
+                aspernatur ipsum. Quibusdam cupiditate, voluptates ab temporibus magni consectetur tempora voluptas
+                aperiam
+                voluptatum deserunt culpa iste veniam ut cumque?</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="container-fluid bg-dark p-5 mt-5">
+        <footer class="text-center text-white">
+            <h2>Panda e-commerce-website</h2>
+            <h5 class="mb-5">1992-2022</h5>
+            <p><small>&copy2020. Panda e-commerce. All rights reserved. Rifat_Mahmud, Bangladesh.</small></p>
+        </footer>
+    </section>
+
+    <!-- Bootstrap-JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
